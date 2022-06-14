@@ -15,11 +15,9 @@
           Calcule aqui seu IMC
         </a>
     </nav>
- 
 
     <?php
 
-//function calc_imc($peso,$altura){
     $peso  = $_POST['peso'];
     $altura =$_POST['altura'];
     $total = $peso/($altura*$altura);
@@ -50,11 +48,6 @@
     echo"Obesidade Grau 3";
     echo '<p class="lead">'.number_format($total,2).'</p>';
 }
-
-
-//}
-
-//echo calc_imc(65,1.9);
 
 ?>
     
