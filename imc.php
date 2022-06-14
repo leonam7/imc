@@ -51,7 +51,9 @@
     echo '<p class="lead">'.number_format($total,2).'</p>';
 }
 
+
 //}
+
 //echo calc_imc(65,1.9);
 
 ?>
