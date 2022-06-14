@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
+    
     <nav class="navbar navbar-light" style="background-color:#00BFFF;">
         <a class="navbar-brand" href="#">
           <img  src="img/Science-Scale-icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -30,6 +31,7 @@
 
     <?php
 
+//function calc_imc($peso,$altura){
 $peso  = $_POST['peso'];
 $altura =$_POST['altura'];
 $total = $peso/($altura*$altura);
@@ -61,7 +63,10 @@ $total = $peso/($altura*$altura);
     echo '<p class="lead">'.number_format($total,2).'</p>';
 }
 
-?>
+//}
+//echo calc_imc(65,1.9);
 
+?>
+    
 </body>
 </html>
