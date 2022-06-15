@@ -11,7 +11,6 @@
     
     <nav class="navbar navbar-light" style="background-color:#00BFFF;">
         <a class="navbar-brand" href="#">
-          <img  src="img/Science-Scale-icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
           Calcule aqui seu IMC
         </a>
     </nav>
